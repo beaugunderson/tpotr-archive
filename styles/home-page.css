@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* This is CSS for Home Page only */
+/* front-page-vers3.css */
+
+body {
+	font: 100% Arial, Helvetica, sans-serif;
+	background:url(../images/homepage-bckgrnd-wall2.jpg) no-repeat scroll 50% 0pt;
+	background-color: #a99461;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #000000;
+}
+a {
+	text-decoration: none;
+	color: #0D1335;
+}
+
+/* this section is for styling the text links on the left-hand side */
+
+.text_links {
+	clear: left;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0D1335;
+	line-height: 1.5em;
+}
+.text_links a:hover {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration:underline;
+	color:#a99461;
+}
+
+.text_div {
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #0D1335;
+	font-weight: bold;
+}
+
+.thrColAbsHdr #container {
+	position: relative;
+	width: 906px;
+	margin: 0 auto;
+	border: 0px;
+}
+.thrColAbsHdr #header {
+	height: 250px;
+	padding: 0 0px 0px;
+	text-align:center;
+}
+.thrColAbsHdr #leftcolumn {
+	position: absolute;
+	top: 251px;
+	left: 0px;
+	width: 356px;
+	padding: 0px 5px 0px 14px;
+	height: 450px;
+}
+.thrColAbsHdr #mainContent {
+	position: absolute;
+	top: 251px;
+	margin: 0 356px; /* the right and left margins on this div element creates the two outer columns on the sides of the page. No matter how much content the sidebar divs contain, the column space will remain. */
+	padding: 0; /* remember that padding is the space inside the div box and margin is the space outside the div box */
+	left: 40px;
+	width: 500px;
+	height: 450px;
+}
+.thrColAbsHdr #footer {
+	position: absolute;
+	top: 808px;
+	padding: 0 5px 0 10px; /* this padding matches the left alignment of the elements in the divs that appear above it. */
+	background:#1a284b;
+	font-size:16px;
+	font-style:normal;
+	font-weight: bold;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#FFFFFF;
+	text-align:center;
+	width:891px;
+	left: 0px;
+}
+.thrColAbsHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 5px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+}
+/* this section for styling/alignment of program lists */
+.programs-list ul {
+	margin: 0 0 0 10px;
+	padding: 0;
+	list-style-type: none;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style:normal;
+	font-weight: normal;
+}
+.programs-list li {
+	padding: 0.25em 0 0.25em 0;
+}
+.programs-list h4 {
+	margin: 0 0 0 -10px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size: 16px;
+}
+.programs-list a {
+	text-decoration: none;
+}
+.programs-list li a:hover {
+	color:#a99461;
+	text-decoration:underline;
+}
+/* this section for aligning program sections */
+
+div#left {
+	width: 220px;
+	top: 0px;
+	left: 0px;
+}
+div#right {
+	position: absolute;
+	top: 0px;
+	left: 225px;
+	width: 211px;
+}
+/* left center column */
+
+.songlist {
+	height: 50px;
+	white-space: nowrap;
+}
+.albums {
+	height: 415px;
+	white-space: nowrap;
+}
+.otherssolos {
+	height: 25px;
+	white-space: nowrap;
+}
+/* right center column */
+
+.releases {
+	height: 50px;
+	white-space: nowrap;
+}
+.singles {
+	height: 465px;
+	white-space: nowrap;
+}
+/* callout box on right-hand side of home page */
+blockquote.float-right {
+	background: #E8E4D9 none repeat scroll 0%;
+	border-bottom: 2px solid #3D3B2F;
+	border-right: 2px solid #3D3B2F;
+	color: #202A4D;
+	float: right;
+	width: 90%;
+	margin: 0 4px 0 0;
+	padding: 0.5em;
+/*	width: 16em; */
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: .75em;
+	font-style: normal;
+	font-weight:bold;
+}
+blockquote.float-right a {
+	color: #202A4D;
+	text-decoration:underline;
+}
+blockquote.float-right a:hover {
+	color: #E8E4D9;
+	background-color: #202A4D;
+	text-decoration: underline;
+}
+
+/* search box */
+input#btnG {
+  clear: right;
+  float: right;
+  margin-right: 4px;
+}
+img.searchBox {
+  clear: right;
+  float: right;
+  margin-right: 4px;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+img.imgLink {
+   border: none;
+}

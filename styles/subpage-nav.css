@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+
+.navcontainer {
+	width: 906px;
+	background:url(/images/nav-bkgrnd.jpg);
+	overflow:hidden;
+}
+.navbar {
+	padding:0 0 0 0px;
+	margin:0;
+	list-style:none;
+	height:31px;
+	width: 906px;
+	background-color: #3D392D;
+	position:absolute;
+	/* border:1px solid #000;  */
+    border-width:0;
+	top: 103px;
+	overflow: hidden;
+}
+.navbar li {
+	float:left;
+	clear: right;
+}
+.navbar li a {
+	display:block;
+	float:left;
+	height:30px;
+	line-height:30px;
+	color:#fff;
+	text-decoration:none;
+	font-size:12px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	text-align:center;
+	padding: 0 0 0 4px;
+	cursor:pointer;
+}
+.navbar li a b {
+	float:left;
+	display:block;
+	/* padding:0 15px 0 10px; */
+    padding:0 10px 0 5px;
+}
+.navbar li.current a {
+	color:#192648;
+	background:url(/images/nav-curr.jpg);
+}
+.navbar li.current a b {
+	background:url(/images/nav-curr.jpg) no-repeat right bottom;
+}
+.navbar li a:hover {
+	color:#fff;
+	background:#000 url(/images/nav-hover.jpg);
+	text-decoration: none;
+}
+.navbar li a:hover b {
+	background:url(/images/nav-hover.jpg) no-repeat right top;
+	text-decoration: none;
+}
+.navbar li.current a:hover {
+	color:#fff;
+	background:#000 url(/images/nav-hover.jpg);
+	text-decoration: none;
+}
+.navbar li.current a:hover b {
+	background:url(/images/nav-hover.jpg) no-repeat right top;
+	text-decoration: none;
+}
+.nav-first-pos {
+	padding-left: 61px;
+	padding-right: 61px;
+}
